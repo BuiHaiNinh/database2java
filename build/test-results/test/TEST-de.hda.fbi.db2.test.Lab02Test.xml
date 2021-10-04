@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.hda.fbi.db2.test.Lab02Test" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-06-05T09:44:28" hostname="Bobbys-MacPro.local" time="0.012">
+  <properties/>
+  <testcase name="test1EntityManager" classname="de.hda.fbi.db2.test.Lab02Test" time="0.01"/>
+  <testcase name="test2FindCategory" classname="de.hda.fbi.db2.test.Lab02Test" time="0.0"/>
+  <testcase name="test3FindQuestion" classname="de.hda.fbi.db2.test.Lab02Test" time="0.0"/>
+  <testcase name="test4FindAnswer" classname="de.hda.fbi.db2.test.Lab02Test" time="0.0"/>
+  <testcase name="test5AnswerStringsInQuestion" classname="de.hda.fbi.db2.test.Lab02Test" time="0.0"/>
+  <testcase name="test6QuestionInCategory" classname="de.hda.fbi.db2.test.Lab02Test" time="0.0"/>
+  <testcase name="test7EqualsFunction" classname="de.hda.fbi.db2.test.Lab02Test" time="0.0"/>
+  <testcase name="test8HashCodeFunction" classname="de.hda.fbi.db2.test.Lab02Test" time="0.0"/>
+  <testcase name="test9CategoryNameUnique" classname="de.hda.fbi.db2.test.Lab02Test" time="0.0"/>
+  <system-out><![CDATA[
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

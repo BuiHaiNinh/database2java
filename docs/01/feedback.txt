@@ -1,0 +1,5 @@
+Bitte beheben Sie folgende(s) Problem(e) bis spätestens Montag 11.05.20 um 7:00 Uhr, andernfalls verlieren Sie Ihren Praktikumsplatz:
+
+
+~~~~~~~~
+Hinweis: Sie haben Checkstyle Warnungen - bitte prüfen (Gradle -> Tasks -> verification -> check).

@@ -1,0 +1,26 @@
+- Wählen Option 2 Play Test im Menü, um das Game zu spielen.
+- Spieler gibt seinen Namen ein.
+- Spieler schreibt die Category-Namen ein, viele wie er willt.
+- Spieler schreibt 0 ein, um das Wählen zu beenden
+- Spieler gibt die Anzahl der Fragen pro Kategorie ein.
+- Die Kategorien werden aus der Datenbank geholt.
+- Die Fragen aus den genannten Kategorien werden zufällig aus der Datenbank geholt.
+- Falls der Spieler neu ist, wird er persistiert.
+- Die Fragen werden nacheinander angezeigt.
+- Nach dem Eingeben wird der richtige Antwort angezeigt und die User-Eingabe wird eingecheckt, ob es richtig ist.
+- Nach dem Spiel wird die Anzahl der richtigen Antworten angezeigt. z.B:
+
+        Start Game :D
+        Question 1: Welcher Tanz-Star spielte eine Hauptrolle in "Xanadu"?
+        1. Patrick Swayze
+        2. Gene Kelly
+        3. John Travolta
+        4. Fred Astaire
+        1
+        Ihr Antwort:: 1
+        Richtiger Antwort: 2
+        Ihrer Antwort ist FALSCH
+
+        Result: 0/1
+
+- Das Spiel wird persistiert.

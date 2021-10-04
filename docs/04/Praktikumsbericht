@@ -1,0 +1,32 @@
+
+Wie lange dauert die Massendatengenerierung bei Ihrer Anwendung?
+  Ohne Batch Writing: über 30 mins
+  Mit Batch Writing: 20 mins
+  ##########################
+
+=================================
+Parameters for the data generation:
+  Players: 10000
+  Games per player: 100
+  Categories per game: 5
+  Players in the DB: 10000
+  Games in the DB: 1000000
+  Average questions per Game:  12
+  Running time: 1364 sec
+=================================
+
+Wie haben Sie eineschnelle erzeugung der Daten bewirkt?
+  Batch Writing: Die Queries werden nicht einzeln, sondern in einem Batch gesendet. Die Daten werden dadurch schneller generiert/geschrieben.
+  ################
+
+Wie benutzen Sie Transactions und warum?
+  Wir öffnen eine Transaktion ganz am Anfang, bevor alle Änderungen in Datenbank durchgeführt werden.
+  Und schließen die Transaktion dann, wenn alle Änderungen persistiert werden.
+  Die kompletten Daten werden innerhalb einer Transaction erzeugt.
+  Diese Verwendung von Transactions hat den Vorteil, dass die Daten entweder komplett oder gar nicht in der Datenbank gespeichert werden.
+
+Wie verwenden Sie flush(),clear(),etc.und warum?
+  flush() sychronisiert den Persistenzkontext mit der DB.
+  clear() löscht den Persistenzkontext.
+  Wird im Programm nach jedem 100. Spieler gespeichert, um Speicherüberlauf zu vermeiden.
+  ##################

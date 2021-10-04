@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.hda.fbi.db2.test.Lab03Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-05T09:44:28" hostname="Bobbys-MacPro.local" time="3.335">
+  <properties/>
+  <testcase name="test1Functionality" classname="de.hda.fbi.db2.test.Lab03Test" time="2.872"/>
+  <testcase name="test2FindGameEntity" classname="de.hda.fbi.db2.test.Lab03Test" time="0.232"/>
+  <testcase name="test3FindPlayerEntity" classname="de.hda.fbi.db2.test.Lab03Test" time="0.231"/>
+  <system-out><![CDATA[Start Game :D
+Question 1: Welcher Eishockey-Spieler wurde deutscher Bundestrainer?
+1. Marco Sturm
+2. Uwe Krupp
+3. Erich Weide
+4. Christian Ehrhoff
+Input: 4
+
+Question 2: In welchem Ort liegt die Heini-Klopfer-Skiflugschanze?
+1. Klingenthal
+2. Oberwiesenthal
+3. Oberstdorf
+4. Garmisch-Partenkirchen
+Input: 4
+
+Question 3: Wer spielt die Tatort-Kommissarin Eva Saalfeld?
+1. Eva Mattes
+2. Katharina Böhm
+3. Ulrike Kriener
+4. Simone Thomalla
+Input: 2
+
+Question 4: Der deutsche Showmaster Thomas Gottschalk heißt mit vollem Namen ...?
+1. Thomas Dominik Gottschalk
+2. Thomas Maria Gottschalk
+3. Thomas Joachim Gottschalk
+4. Thomas Johannes Gottschalk
+Input: 4
+
+Result: 1/4]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
